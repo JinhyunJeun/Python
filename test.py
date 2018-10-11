@@ -1,0 +1,2 @@
+msg = "DebugTest"
+print(msg)
