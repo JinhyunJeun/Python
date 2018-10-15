@@ -1,3 +1,11 @@
+# 문자열 인덱싱:  
+# a = "Life is too short, You need Python"이라는 문자가 있을 때
+#      0123456789... 이렇게 나가는 것을 말한다.
+# 따라서 a[0]='L'이 된다.
+a = "Life is too short, You need Python"
+print(a[0:4])   # Life 출력
+
+
 # 문자열 formating
 # 숫자 바로 대입
 string = "I eat %d apples" % 3
@@ -148,4 +156,26 @@ a = "Hello; world"
 print(a.split(";"))
 b = "Hello Python"
 print(b.split())
-# commit test
+# 연습문제
+# 문제3. "PYTHON" 앞에 공백 24개 추가 하여 30자리 문자열 만들기
+print(' '*24 + "PYTHON")
+# 문제4. 문자열 나누기: 881120-1068234를 YYYYMMDD로 출력하기
+string = "881120-106823"
+sangYun = string.split("-")
+sangYunWolIl = sangYun[0].replace("88","1988")
+print(sangYunWolIl)
+# 문제5. 문자열 인덱싱: 881120-1068234에서 성별을 나타내는 1을 출력
+print(sangYun[1][0])
+# 문제6. 1980M1120 이라는 문자열이 있을 때 M19801120으로 바꾸시오.
+string = "1980M1120"
+splited = string.split("M")
+print("M"+splited[0]+splited[1])
+# 문제7. 문자열 포맷: "PYTHON" 앞에 24개의 공백을 추가하여 30자리 문자열 만들기
+print(" "*24+f'{"PYTHON":30}')
+# 문제8. 문자열 찾기: "Life is too short, you need python"
+#       에서 "short"라는 문자열이 시작되는 인덱스를 구하시오.
+string = "Life is too short, you need python"
+print(string.find("short"))
+# 문제9. 문자열 바꾸기1 a:b:c:d 문자열에서 replace를 이용 a#b#c#d로 바꾸기
+string = "a:b:c:d"
+print(string.replace(":","#"))
