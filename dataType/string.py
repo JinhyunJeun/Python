@@ -13,11 +13,11 @@ print(string)
 # 문자 바로 대입
 string = "I eat %s apples" % "five"
 print(string)
-# 숫자 갑ㅅ을 나타내는 변수로 대입
+# 숫자 값을 나타내는 변수로 대입
 num = 3
-string = "I eat %d apples" % num
+string = "I eat %d apples" % num값
 print(string)
-# 2개 이상의 갑ㅅ 넣기
+# 2개 이상의 값 넣기
 num = 10
 day = "three"
 string = "I ate %d apples. So I was sick for %s days" % (num, day)
@@ -56,11 +56,11 @@ print(string)
 # 2) 문자열 바로 대입하기
 string = "I eat {0} apples.".format("three")
 print(string)
-# 3) 숫자 갑ㅅ을 가진 변수로 대입하기
+# 3) 숫자 값을 가진 변수로 대입하기
 num = 5
 string = "I eat {0} apples".format(num)
 print(string)
-# 4) 두 개 이상의 갑ㅅ 넣기
+# 4) 두 개 이상의 값 넣기
 num = 10
 day = "two"
 string = "I ate {0} apples. So I sick for {1} days.".format(num, day)
