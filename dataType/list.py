@@ -70,7 +70,7 @@ print(a)
 a = ['a', 'c', 'b']
 a.reverse()
 print(a)
-
+#
 # 위치반환(index): index(x) 함수는 리스트에 x라는 값이 있으면 x의 위치값을 반환한다. JAVA의 indexOf와 같음
 a = [1, 2, 3]
 print(a.index(3)) # 해당하는 요소가 없다면 리턴없이 에러를 뿜는다.
